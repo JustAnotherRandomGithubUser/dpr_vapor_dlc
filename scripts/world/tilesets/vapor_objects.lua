@@ -1,7 +1,7 @@
 return {
-  version = "1.9",
+  version = "1.11",
   luaversion = "5.1",
-  tiledversion = "1.9.0",
+  tiledversion = "1.12.1",
   name = "vapor_objects",
   class = "",
   tilewidth = 40,
@@ -23,13 +23,25 @@ return {
   },
   properties = {},
   wangsets = {},
-  tilecount = 1,
+  tilecount = 3,
   tiles = {
     {
       id = 1,
       image = "../../../assets/sprites/world/maps/pillar.png",
       width = 40,
       height = 72
+    },
+    {
+      id = 3,
+      image = "../../../assets/sprites/world/maps/pillar_baked_yellow.png",
+      width = 40,
+      height = 72
+    },
+    {
+      id = 2,
+      image = "../../../assets/sprites/world/maps/shadows/whitepx_10.png",
+      width = 10,
+      height = 10
     }
   }
 }

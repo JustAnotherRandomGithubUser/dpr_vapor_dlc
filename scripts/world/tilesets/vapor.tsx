@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.11" tiledversion="1.12.1" name="vapor" tilewidth="20" tileheight="20" tilecount="210" columns="10" tilerendersize="grid">
+<tileset version="1.11" tiledversion="1.12.1" name="vapor" tilewidth="20" tileheight="20" tilecount="420" columns="20" tilerendersize="grid">
  <editorsettings>
   <export target="vapor.lua" format="lua"/>
  </editorsettings>
  <grid orientation="orthogonal" width="40" height="40"/>
- <image source="../../../assets/sprites/tilesets/vapor.png" width="200" height="420"/>
- <tile id="120">
+ <image source="../../../assets/sprites/tilesets/vapor.png" width="400" height="420"/>
+ <tile id="240">
   <animation>
-   <frame tileid="120" duration="166"/>
-   <frame tileid="121" duration="166"/>
-   <frame tileid="122" duration="166"/>
+   <frame tileid="240" duration="166"/>
+   <frame tileid="241" duration="166"/>
+   <frame tileid="242" duration="166"/>
   </animation>
  </tile>
- <tile id="123">
+ <tile id="243">
   <animation>
-   <frame tileid="123" duration="166"/>
-   <frame tileid="133" duration="166"/>
-   <frame tileid="143" duration="166"/>
+   <frame tileid="243" duration="166"/>
+   <frame tileid="263" duration="166"/>
+   <frame tileid="283" duration="166"/>
   </animation>
  </tile>
- <tile id="130">
+ <tile id="260">
   <animation>
-   <frame tileid="130" duration="166"/>
-   <frame tileid="131" duration="166"/>
-   <frame tileid="132" duration="166"/>
+   <frame tileid="260" duration="166"/>
+   <frame tileid="261" duration="166"/>
+   <frame tileid="262" duration="166"/>
   </animation>
  </tile>
- <tile id="140">
+ <tile id="280">
   <animation>
-   <frame tileid="140" duration="166"/>
-   <frame tileid="141" duration="166"/>
-   <frame tileid="142" duration="166"/>
+   <frame tileid="280" duration="166"/>
+   <frame tileid="281" duration="166"/>
+   <frame tileid="282" duration="166"/>
   </animation>
  </tile>
 </tileset>
