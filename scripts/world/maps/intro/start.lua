@@ -1,7 +1,7 @@
 return {
-  version = "1.10",
+  version = "1.11",
   luaversion = "5.1",
-  tiledversion = "1.10.2",
+  tiledversion = "1.12.1",
   class = "",
   orientation = "orthogonal",
   renderorder = "right-down",
@@ -25,7 +25,7 @@ return {
     },
     {
       name = "vapor_objects",
-      firstgid = 111,
+      firstgid = 421,
       filename = "../../tilesets/vapor_objects.tsx",
       exportfilename = "../../tilesets/vapor_objects.lua"
     }
@@ -49,18 +49,18 @@ return {
       properties = {},
       encoding = "lua",
       data = {
-        0, 0, 0, 0, 0, 14, 31, 31, 31, 31, 16, 0, 0, 0, 0, 0,
-        0, 0, 0, 0, 0, 14, 31, 31, 31, 31, 16, 0, 0, 0, 0, 0,
-        0, 0, 0, 0, 0, 14, 31, 31, 31, 31, 16, 0, 0, 0, 0, 0,
-        0, 0, 0, 0, 0, 14, 31, 31, 31, 31, 16, 0, 0, 0, 0, 0,
-        0, 0, 0, 0, 4, 7, 31, 31, 31, 31, 8, 6, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 24, 61, 61, 61, 61, 26, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 24, 61, 61, 61, 61, 26, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 24, 61, 61, 61, 61, 26, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 24, 61, 61, 61, 61, 26, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 4, 7, 61, 61, 61, 61, 8, 6, 0, 0, 0, 0,
         0, 0, 0, 4, 7, 1, 2, 2, 2, 2, 3, 8, 6, 0, 0, 0,
-        0, 0, 0, 14, 1, 12, 12, 12, 12, 12, 12, 3, 16, 0, 0, 0,
-        0, 0, 0, 14, 11, 12, 12, 12, 12, 12, 12, 13, 16, 0, 0, 0,
-        0, 0, 0, 14, 21, 12, 12, 12, 12, 12, 12, 23, 16, 0, 0, 0,
-        0, 0, 0, 24, 17, 21, 22, 22, 22, 22, 23, 18, 26, 0, 0, 0,
-        0, 0, 0, 44, 47, 25, 25, 25, 25, 25, 25, 48, 46, 0, 0, 0,
-        0, 0, 0, 0, 44, 45, 45, 45, 45, 45, 45, 46, 0, 0, 0, 0
+        0, 0, 0, 24, 1, 22, 22, 22, 22, 22, 22, 3, 26, 0, 0, 0,
+        0, 0, 0, 24, 21, 22, 22, 22, 22, 22, 22, 23, 26, 0, 0, 0,
+        0, 0, 0, 24, 41, 22, 22, 22, 22, 22, 22, 43, 26, 0, 0, 0,
+        0, 0, 0, 44, 27, 41, 42, 42, 42, 42, 43, 28, 46, 0, 0, 0,
+        0, 0, 0, 84, 87, 45, 45, 45, 45, 45, 45, 88, 86, 0, 0, 0,
+        0, 0, 0, 0, 84, 85, 85, 85, 85, 85, 85, 86, 0, 0, 0, 0
       }
     },
     {
@@ -119,6 +119,7 @@ return {
           width = 80,
           height = 40,
           rotation = 0,
+          opacity = 1,
           visible = true,
           properties = {}
         },
@@ -132,6 +133,7 @@ return {
           width = 40,
           height = 120,
           rotation = 0,
+          opacity = 1,
           visible = true,
           properties = {}
         },
@@ -145,6 +147,7 @@ return {
           width = 40,
           height = 40,
           rotation = 0,
+          opacity = 1,
           visible = true,
           properties = {}
         },
@@ -158,6 +161,7 @@ return {
           width = 240,
           height = 40,
           rotation = 0,
+          opacity = 1,
           visible = true,
           properties = {}
         },
@@ -171,6 +175,7 @@ return {
           width = 40,
           height = 40,
           rotation = 0,
+          opacity = 1,
           visible = true,
           properties = {}
         },
@@ -184,6 +189,7 @@ return {
           width = 40,
           height = 120,
           rotation = 0,
+          opacity = 1,
           visible = true,
           properties = {}
         },
@@ -197,6 +203,7 @@ return {
           width = 80,
           height = 40,
           rotation = 0,
+          opacity = 1,
           visible = true,
           properties = {}
         },
@@ -210,6 +217,7 @@ return {
           width = 40,
           height = 200,
           rotation = 0,
+          opacity = 1,
           visible = true,
           properties = {}
         },
@@ -223,6 +231,7 @@ return {
           width = 40,
           height = 200,
           rotation = 0,
+          opacity = 1,
           visible = true,
           properties = {}
         }
@@ -252,6 +261,7 @@ return {
           width = 160,
           height = 40,
           rotation = 0,
+          opacity = 1,
           visible = true,
           properties = {
             ["map"] = "intro/pillars_1",
@@ -268,7 +278,8 @@ return {
           width = 80,
           height = 144,
           rotation = 0,
-          gid = 112,
+          opacity = 1,
+          gid = 422,
           visible = true,
           properties = {}
         },
@@ -282,7 +293,8 @@ return {
           width = 80,
           height = 144,
           rotation = 0,
-          gid = 112,
+          opacity = 1,
+          gid = 422,
           visible = true,
           properties = {}
         },
@@ -296,7 +308,8 @@ return {
           width = 80,
           height = 144,
           rotation = 0,
-          gid = 112,
+          opacity = 1,
+          gid = 422,
           visible = true,
           properties = {}
         },
@@ -310,7 +323,8 @@ return {
           width = 80,
           height = 144,
           rotation = 0,
-          gid = 112,
+          opacity = 1,
+          gid = 422,
           visible = true,
           properties = {}
         },
@@ -324,6 +338,7 @@ return {
           width = 0,
           height = 0,
           rotation = 0,
+          opacity = 1,
           visible = true,
           properties = {
             ["angle"] = "-5"
@@ -339,6 +354,7 @@ return {
           width = 0,
           height = 0,
           rotation = 0,
+          opacity = 1,
           visible = true,
           properties = {
             ["angle"] = "5"
@@ -370,6 +386,7 @@ return {
           width = 0,
           height = 0,
           rotation = 0,
+          opacity = 1,
           visible = true,
           properties = {}
         },
@@ -383,6 +400,7 @@ return {
           width = 0,
           height = 0,
           rotation = 0,
+          opacity = 1,
           visible = true,
           properties = {}
         }
@@ -444,6 +462,7 @@ return {
           width = 0,
           height = 0,
           rotation = 0,
+          opacity = 1,
           visible = true,
           properties = {
             ["shader"] = "ntsc"

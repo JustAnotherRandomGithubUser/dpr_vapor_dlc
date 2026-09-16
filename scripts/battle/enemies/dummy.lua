@@ -32,7 +32,8 @@ function Dummy:init()
 
     -- Dialogue randomly displayed in the enemy's speech bubble
     self.dialogue = {
-        "..."
+        "I'm a vaporrific\nperson.",
+		"Ride the waves!"
     }
 
     -- Check text (automatically has "ENEMY NAME - " at the start)
@@ -54,6 +55,15 @@ function Dummy:init()
     self:registerAct("Tell Story", "", {"ralsei"})
 
     self.killable = true
+end
+
+function Dummy:spawnSpeechBubble(text)
+    local x, y = self.sprite:getRelativePos(-15, self.sprite.height/2 - 10, Game.battle)
+    local bubble = VectorizedSpeechBubble(text, self, x, y)
+    self.bubble = bubble
+    self:onBubbleSpawn(bubble)
+    Game.battle:addChild(bubble)
+    return bubble
 end
 
 function Dummy:onAct(battler, name)
